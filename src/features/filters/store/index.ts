@@ -1,0 +1,1 @@
+export { useFilterMovies } from "./useFilterMovies";

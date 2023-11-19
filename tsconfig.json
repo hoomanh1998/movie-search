@@ -1,0 +1,37 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "useDefineForClassFields": true,
+    "lib": ["DOM", "DOM.Iterable", "ESNext"],
+    "allowJs": false,
+    "skipLibCheck": true,
+    "esModuleInterop": false,
+    "allowSyntheticDefaultImports": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "module": "ESNext",
+    "moduleResolution": "Node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "noEmit": true,
+    "noUnusedParameters": true,
+    "noUnusedLocals": true,
+    "jsx": "react-jsx",
+    "baseUrl": "src",
+    "paths": {
+      "/@/*": ["../*"],
+      "@features/*": ["features/*"],
+      "@pages/*": ["pages/*"],
+      "@utils/*": ["utils/*"],
+      "@images/*": ["assets/images/*"],
+      "@icons/*": ["assets/icons/*"],
+      "@layouts/*": ["features/layouts/*"],
+      "@search/*": ["features/search/*"],
+      "@filters/*": ["features/filters/*"],
+      "@movieList/*": ["features/movies/movie-list/*"],
+      "@movieDetails/*": ["features/movies/movie-details/*"],
+    }
+  },
+  "include": ["src"],
+  "references": [{ "path": "./tsconfig.node.json" }]
+}
