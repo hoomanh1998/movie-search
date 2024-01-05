@@ -6,7 +6,7 @@
 
 <h2>🚀 Demo</h2>
 
-[react-movie-search-v1.netlify.app](react-movie-search-v1.netlify.app) 
+[https://react-movie-search-v1.netlify.app](https://react-movie-search-v1.netlify.app)
   
 <h2>🧐 Features</h2>
 
