@@ -6,7 +6,7 @@ const Bookmarked = () => {
   const { bookmarkedMovies, removeFromBookmark } = useMovieDetails();
 
   return (
-    <div className="flex flex-col w-full min-h-screen sm:items-center text-white p-5">
+    <div className="flex flex-col w-full h-screen sm:items-center text-white p-5">
       <Heading title="Bookmarked Movies" />
       <div className="flex flex-col flex-1 w-full max-w-5xl">
         {bookmarkedMovies.length === 0 ? (
