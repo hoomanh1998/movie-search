@@ -15,7 +15,7 @@ export const RootLayout = () => {
       <Sidebar />
       <main className="relative w-full h-full flex flex-col justify-center items-center bg-gray-800">
         <MenuIcon
-          className={`fixed w-10 h-10 stroke-white top-7 right-7 bg-gray-800 bg-opacity-50 p-1.5 rounded-xl transition-opacity duration-150 sm:cursor-pointer ${
+          className={`fixed w-10 h-10 stroke-white top-7 right-7 bg-gray-800 bg-opacity-50 rounded-xl transition-opacity duration-150 sm:cursor-pointer ${
             isSidebarOpen ? "opacity-0 -z-10" : "opacity-100 z-40"
           }`}
           onClick={openSidebarHandler}
