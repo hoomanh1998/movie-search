@@ -20,13 +20,13 @@ export const MovieCard = React.memo(
       className="relative w-full h-full ring-blue-500 sm:hover:ring-4 transition duration-500 ease-in-out rounded-xl group"
     >
       <Link
-        className="relative flex flex-col h-full rounded-xl overflow-hidden"
+        className="relative flex flex-col h-full md:rounded-xl overflow-hidden"
         to={`/movies/${id}`}
       >
         <ProgressiveImage
           src={poster}
           type="card"
-          className="aspect-[2/3] object-cover w-full h-full shadow-md sm:group-hover:scale-125 transition-transform duration-300 ease-in-out"
+          className="aspect-[2/3] object-cover rounded-xl w-full shadow-md sm:group-hover:scale-125 transition-transform duration-300 ease-in-out"
         />
         <div className="flex absolute left-0 bottom-0 w-full h-4/5 bg-gradient-to-t from-black to-transparent text-left translate-y-full opacity-100 sm:translate-y-4/5 sm:group-hover:translate-y-0 transition-transform duration-300 ease-in-out p-5">
           <div className="sm:text-2xl sm:font-bold break-words line-clamp-2 mt-auto mb-0">

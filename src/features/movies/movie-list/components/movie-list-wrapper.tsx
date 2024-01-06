@@ -87,7 +87,7 @@ const MovieListWrapper = () => {
           </span>
         </div>
       )}
-      <ul className="w-full grid gap-5 grid-cols-2 xs:grid-cols-3 md:grid-cols-4 max-w-5xl z-10">
+      <ul className="w-full grid grid-rows-2 gap-5 grid-cols-2 xs:grid-cols-3 md:grid-cols-4 max-w-5xl z-10">
         {searchParams.get("query") && isSuccess && (
           <MovieList movies={data!} lastRef={lastMovieRef} />
         )}
