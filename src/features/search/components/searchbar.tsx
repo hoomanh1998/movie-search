@@ -19,7 +19,7 @@ export const Searchbar = React.forwardRef<HTMLInputElement, Searchbar>(
     const onFocus = () => setIsFocused(true);
     const onBlur = () => setIsFocused(false);
     return (
-      <div className="relative flex flex-row shrink-0 justify-center sm:max-w-md w-full">
+      <div className="relative flex flex-row shrink-0 justify-center sm:max-w-md w-full z-50">
         <input
           autoComplete="off"
           name="Searchbar"
