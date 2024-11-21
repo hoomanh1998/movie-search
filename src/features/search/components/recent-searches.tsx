@@ -14,7 +14,7 @@ export const RecentSearches = ({
     (state) => state.removeFromRecentSearch
   );
   return (
-    <div className="flex flex-col w-full">
+    <div className="flex flex-col w-full z-50">
       <h5 className="text-2xl text-left font-bold mb-5">Recent Searches</h5>
       <ul className="flex flex-wrap gap-x-2 gap-y-3">
         {searches.map((search, i) => (
